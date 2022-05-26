@@ -1,0 +1,39 @@
+.center { 
+    margin: 0 auto;
+    width: 68%; /* Ширина */
+    padding: auto;
+    background: white; /* Цвет фона */
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+    position: relative;
+   }
+
+/* Make the image responsive */
+.center img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.center .btn:hover {
+  background-color: black;
+}
+
+.pb-2 {
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.map{
+  border-radius: 10%;
+}
+
+.text{
+  font-size: 15px;
+}

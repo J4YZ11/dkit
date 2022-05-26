@@ -1,0 +1,55 @@
+.center { 
+    margin: 0 auto;
+    width: 68%; /* Ширина */
+    padding: auto;
+    background: white; /* Цвет фона */
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+    position: relative;
+   }
+
+/* Make the image responsive */
+.center img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.center .btn:hover {
+  background-color: black;
+}
+
+.pb-2 {
+  text-align: center;
+}
+
+.imga{
+  width: 1300px;
+}
+
+.catalog{
+  width: 300px;
+  height: 500px;
+  border-radius: 7%;
+}
+
+.cat{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.text{
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: black;
+  color: black;
+}

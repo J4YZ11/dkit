@@ -1,0 +1,87 @@
+
+.logo{
+  width: 120px;
+  height: 60px;
+}
+
+.center { 
+    margin: 0 auto;
+    width: 68%; /* Ширина */
+    padding: auto;
+    background: white; /* Цвет фона */
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+    position: relative;
+   }
+
+/* Make the image responsive */
+.center img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.center .btn {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-c
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.center .btn:hover {
+  background-color: black;
+}
+
+.pb-2 {
+  text-align: center;
+
+}
+
+.ico {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.text-img{
+  font-size: 35px;
+  width: 500px;
+  height: 800px;
+  text-align: center;
+
+}
+.imgman {
+  width: 500px;
+  height: 800px;
+  border-radius: 7%;
+
+
+
+}
+
+
+.boss{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.work{
+  width: 300px;
+  height: 500px;
+  border-radius: 7%;
+  background-color: white;
+  margin-left: 50px;
+
+}
+
